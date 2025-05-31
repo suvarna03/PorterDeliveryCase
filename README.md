@@ -6,8 +6,8 @@ Porter has a number of delivery partners available for delivering the food, from
 This dataset has the required data to train a regression model that will do the delivery time estimation, based on all those features.
 
 **Implementation**
-1: Import the data and understand the structure of the data.
-2: Data preprocessing
+* 1: Import the data and understand the structure of the data.
+* 2: Data preprocessing
   a: Cleaning of data
   b: Feature engineering: Creating the target column time taken in each delivery from order timestamp (created_at) and delivery timestamp (actual_delivery_time)
   c: Getting hour of day from the order time and also the day of the week
